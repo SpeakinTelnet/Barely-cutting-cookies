@@ -1,0 +1,10 @@
+{
+  "email": "gui.lac@protonmail.com",
+  "user": "SpeakinTelnet",
+  "project_name": "Python Boilerplate",
+  "main_module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "pypi_username": "{{ cookiecutter.user }}",
+  "version": "0.1.0",
+  "scope":["personnal", "public"]
+}
