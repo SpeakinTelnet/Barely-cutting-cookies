@@ -1,8 +1,6 @@
-{% if cookiecutter.scope == 'public' -%}
 include AUTHORS.rst
 include CONTRIBUTING.rst
 include HISTORY.rst
-{% endif -%}
 include LICENSE
 include README.rst
 

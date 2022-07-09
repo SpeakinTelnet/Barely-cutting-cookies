@@ -27,19 +27,31 @@ and "help wanted" is open to whoever wants to implement it.
 Pull Request Guidelines
 -----------------------
 
-Your pull request should pass the *nox* test. 
+Your pull request should pass the ``nox`` test. 
 
-nox will run ``black``, ``flake8``, ``pytest``, and regenerate the docs
+nox will run:
+
+.. code-block:: console
+    
+    $ pytest # Test suite
+    $ black sub3 tests noxfile.py # Linting
+    $ flake8 sub3 tests noxfile.py # General fomarting check
+    $ sphinx-build -W -b html -v docs/ docs/_build/html # Regenerate the docs
 
 Deploying
 ---------
 
 A reminder for the maintainers on how to deploy.
 Make sure all your changes are committed (including an entry in HISTORY.rst).
-Then run::
+Then run
 
-$ bump2version patch # possible: major / minor / patch
-$ git push
-$ git push --tags
+.. code-block:: console
+
+    $ nox -s release -- patch
+
+    #  "major", "minor", "patch"
+    #     \____,   |   ,___|
+    #          1 . 0 . 0
+
 
 CircleCI will then deploy to PyPI if tests pass.

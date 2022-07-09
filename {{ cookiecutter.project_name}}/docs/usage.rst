@@ -2,11 +2,7 @@
 Usage
 =====
 
-To use {{ cookiecutter.project_name }} in a project::
-
-    import {{ cookiecutter.project_name }}
-
-Prerequisite
-************
-
+.. include:: ../README.rst
+    :start-after: .. readme-usage-start
+    :end-before: .. readme-usage-end
 
