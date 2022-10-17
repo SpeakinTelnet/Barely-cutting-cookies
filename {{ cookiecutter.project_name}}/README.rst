@@ -12,14 +12,14 @@ Web3-Subscriber can be installed using ``pip`` as follows:
 
 .. code-block:: console
 
-   $ pip install sub3
+   $ pip install {{ cookiecutter.project_name }}
 
 .. readme-install-end
 
 Usage
 -----
 
-Refer to the `full documentation <https://Sub3.readthedocs.io>`_
+Refer to the `full documentation <https://{{ cookiecutter.project_name }}.readthedocs.io>`_
 for the in-depth usage.
 
 .. readme-usage-start
@@ -53,15 +53,15 @@ If you like it and wish to donate here's a few of my crypto wallets.
 | |EthereumQR|                           | |MoneroQR|                           | |PeercoinQR|                            |
 +----------------------------------------+--------------------------------------+-----------------------------------------+
 
-.. |EthereumQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/Sub3/master/docs/_qrcodes/ethereum.png
+.. |EthereumQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/{{ cookiecutter.project_name }}/master/docs/_qrcodes/ethereum.png
   :width: 300
   :alt: EthereumQR
 
-.. |MoneroQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/Sub3/master/docs/_qrcodes/monero.png
+.. |MoneroQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/{{ cookiecutter.project_name }}/master/docs/_qrcodes/monero.png
   :width: 300
   :alt: MoneroQR
 
-.. |PeercoinQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/Sub3/master/docs/_qrcodes/peercoin.png
+.. |PeercoinQR| image:: https://raw.githubusercontent.com/SpeakinTelnet/{{ cookiecutter.project_name }}/master/docs/_qrcodes/peercoin.png
   :width: 300
   :alt: PeerCoinQR
 

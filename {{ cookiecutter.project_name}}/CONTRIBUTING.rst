@@ -34,8 +34,8 @@ nox will run:
 .. code-block:: console
     
     $ pytest # Test suite
-    $ black sub3 tests noxfile.py # Linting
-    $ flake8 sub3 tests noxfile.py # General fomarting check
+    $ black {{ cookiecutter.module_name }} tests noxfile.py # Linting
+    $ flake8 {{ cookiecutter.module_name }} tests noxfile.py # General fomarting check
     $ sphinx-build -W -b html -v docs/ docs/_build/html # Regenerate the docs
 
 Deploying
