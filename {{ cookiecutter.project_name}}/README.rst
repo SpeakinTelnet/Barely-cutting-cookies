@@ -2,13 +2,13 @@
 =========================================
 
 {{ cookiecutter.project_short_description }}
-
+{% if cookiecutter.private_repo == "n" %}
 Installation
 ------------
 
 .. readme-install-start
 
-Web3-Subscriber can be installed using ``pip`` as follows:
+{{ cookiecutter.project_name }} can be installed using ``pip`` as follows:
 
 .. code-block:: console
 
@@ -76,3 +76,4 @@ Credits
 * TODO
 
 ⊂(▀¯▀⊂)
+{% endif %}

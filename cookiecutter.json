@@ -5,5 +5,8 @@
   "main_module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
   "pypi_username": "{{ cookiecutter.user }}",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "private_repo": ["y", "n"],
+  "use_documentation": ["y", "n"],
+  "use_brownie": ["y", "n"]
 }
